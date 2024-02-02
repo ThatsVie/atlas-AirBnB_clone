@@ -4,7 +4,6 @@ Base Model Class Module for AirBnB project
 """
 import uuid
 from datetime import datetime
-from models import storage
 
 
 class BaseModel:
@@ -25,6 +24,7 @@ class BaseModel:
         **kwargs: variable-length dictionary of keyword arguments.
         """
         # If instance is being created from a dictionary representation
+        from models import storage
         if kwargs:
             # If kwargs is not empty, update instance attributes
             for key, value in kwargs.items():
@@ -63,6 +63,7 @@ class BaseModel:
         """
         Saves instance and updates updated_at attribute to current datetime.
         """
+        from models import storage
         self.updated_at = datetime.now()
         storage.save()
 
