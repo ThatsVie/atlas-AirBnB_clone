@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-will correct shortly
+Module for FileStorage class that manages serialization and deserialization
+of instances to and from a JSON file.
 """
 import json
 from models.base_model import BaseModel
