@@ -3,7 +3,7 @@
 Base Model Class Module for AirBnB project
 """
 import uuid
-import datetime import datetime
+from datetime import datetime
 
 
 class BaseModel:
