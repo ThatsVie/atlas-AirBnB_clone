@@ -10,7 +10,7 @@ class BaseModel:
     """
     BaseModel class
     """
-    def __init__(self):
+    def __init__(self, **kwargs):
         """
         Constructor method for BaseModel.
 
