@@ -35,6 +35,5 @@ class TestFileStorage(unittest.TestCase):
         self.assertIn(f"{self.model.__class__.__name__}.{self.model.id}",
                        file_content)
 
-
 if __name__ == '__main__':
     unittest.main()
