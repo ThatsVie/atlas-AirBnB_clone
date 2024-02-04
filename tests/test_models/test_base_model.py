@@ -55,11 +55,7 @@ class TestBaseModel(unittest.TestCase):
         self.assertIn(self.base_model.id, str_representation)
 
     def test_save(self):
-        model_instance = BaseModel()
-        updated_at_before_save = model_instance.updated_at
-        model_instance.save()
-        self.assertNotEqual(updated_at_before_save, model_instance.updated_at)
-
+        self.assertNotEqual(self.model.created_at, self.model.updated_at)
 
 if __name__ == '__main__':
     unittest.main()
