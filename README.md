@@ -57,6 +57,14 @@ Once the console is running, you can use it interactively or in non-interactive 
 
 ![image](https://github.com/ThatsVie/atlas-AirBnB_clone/assets/143755961/338f551f-e7d0-42a2-9396-62d9b1e087d3)
 
+Creating Instances:
+![image](https://github.com/ThatsVie/atlas-AirBnB_clone/assets/143755961/de078d2f-a043-4b0a-ab0d-b9fc6f77402f)
+
+Listing all instances
+![image](https://github.com/ThatsVie/atlas-AirBnB_clone/assets/143755961/48e4a7d2-1345-48a2-8700-f6d7a643de53)
+
+
+
 
 **Non-Interactive Mode**
 
