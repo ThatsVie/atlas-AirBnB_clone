@@ -16,7 +16,6 @@ from models.review import Review
 def parse(arg):
     # Look for the text enclosed in curly braces {}
     curly_braces_match = re.search(r"\{(.*?)\}", arg)
-    
     # Look for text enclosed in square brackets []
     square_brackets_match = re.search(r"\[(.*?)\]", arg)
 
