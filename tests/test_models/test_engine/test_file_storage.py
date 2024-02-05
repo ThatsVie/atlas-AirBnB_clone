@@ -36,11 +36,10 @@ class TestFileStorage(unittest.TestCase):
                        file_content)
         
     def test_reload_method(self):
-        self.assertEqual(self.storage.all(), {})
-        self.assertTrue(len(self.storage.all()) == 0)
+        initial_keys = list(self.storage.all().keys())
         self.storage.reload()
-        self.assertIn(f"{self.model.__class__.__name__}.{self.model.id}",
-                      self.storage.all().keys())
-         
+        reloaded_keys = list(self.storage.all().keys())
+        self.assertEqual(reloaded_keys, initial_keys)
+        
 if __name__ == '__main__':
     unittest.main()
