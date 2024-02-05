@@ -36,7 +36,6 @@ class TestFileStorage(unittest.TestCase):
                        file_content)
         
     def test_reload_method(self):
-        self.storage.destroy_all()
         self.assertEqual(self.storage.all(), {})
         self.assertTrue(len(self.storage.all()) == 0)
         self.storage.reload()
