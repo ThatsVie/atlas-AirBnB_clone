@@ -13,13 +13,6 @@ class TestBaseModel(unittest.TestCase):
         # Setup a BaseModel instance for testing
         self.base_model = BaseModel()
 
-
-    def test_save_updates_updated_at(self):
-        # Test that calling save() updates the updated_at attribute
-        initial_updated_at = self.base_model.updated_at
-        self.base_model.save()
-        self.assertNotEqual(initial_updated_at, self.base_model.updated_at)
-
     def test_to_dict_contains_id(self):
         # Test that to_dict() returns a dictionary containing id attribute
         instance_dict = self.base_model.to_dict()
@@ -54,17 +47,13 @@ class TestBaseModel(unittest.TestCase):
         self.assertIn(self.base_model.__class__.__name__, str_representation)
         self.assertIn(self.base_model.id, str_representation)
 
-    def test_save(self):
-        # Save the initial values
-        initial_created_at = self.base_model.created_at
+    def test_save_updates_updated_at(self):
+        # Test that calling save() updates the updated_at attribute
         initial_updated_at = self.base_model.updated_at
-
-        # Call save() to update the timestamps
         self.base_model.save()
-
-        # Check if created_at and updated_at are updated
-        self.assertNotEqual(initial_created_at, self.base_model.created_at)
-        self.assertNotEqual(initial_updated_at, self.base_model.updated_at)
+        self.assertTrue(os.path.exists("file.json"))
+        updated_at_after_save = self.base_model.updated_at
+        self.assertNotEqual(initial_updated_at, updated_at_after_save)
 
 if __name__ == '__main__':
     unittest.main()
