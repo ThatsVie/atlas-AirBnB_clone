@@ -34,6 +34,14 @@ class TestFileStorage(unittest.TestCase):
         self.assertTrue(len(file_content) > 0)
         self.assertIn(f"{self.model.__class__.__name__}.{self.model.id}",
                        file_content)
-
+        
+     def test_reload_method(self):
+        self.storage.destroy_all()
+        self.assertEqual(self.storage.all(), {})
+        self.assertTrue(len(self.storage.all()) == 0)
+        self.storage.reload()
+        self.assertIn(f"{self.model.__class__.__name__}.{self.model.id}",
+                      self.storage.all().keys())
+         
 if __name__ == '__main__':
     unittest.main()
