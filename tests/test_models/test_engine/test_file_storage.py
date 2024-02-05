@@ -35,7 +35,7 @@ class TestFileStorage(unittest.TestCase):
         self.assertIn(f"{self.model.__class__.__name__}.{self.model.id}",
                        file_content)
         
-     def test_reload_method(self):
+    def test_reload_method(self):
         self.storage.destroy_all()
         self.assertEqual(self.storage.all(), {})
         self.assertTrue(len(self.storage.all()) == 0)
