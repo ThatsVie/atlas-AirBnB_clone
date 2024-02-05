@@ -13,8 +13,10 @@ class TestFileStorage(unittest.TestCase):
     def tearDown(self):
         del self.model
         del self.storage
+        # Check if the file exists before attempting to remove it
+    if os.path.exists("file.json"):
         os.remove("file.json")
-
+        
     def test_new_method(self):
         new_model = BaseModel()
         self.storage.new(new_model)
