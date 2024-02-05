@@ -56,6 +56,6 @@ class TestFileStorage(unittest.TestCase):
         self.storage.reload()
         reloaded_keys = list(self.storage.all().keys())
         self.assertEqual(reloaded_keys, initial_keys)
-        
+
 if __name__ == '__main__':
     unittest.main()
