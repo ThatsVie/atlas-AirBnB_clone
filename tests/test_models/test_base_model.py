@@ -55,7 +55,10 @@ class TestBaseModel(unittest.TestCase):
         self.assertIn(self.base_model.id, str_representation)
 
     def test_save(self):
-        self.assertNotEqual(self.model.created_at, self.model.updated_at)
+        self.assertNotEqual(
+            self.base_model.created_at,
+            self.base_model.updated_at
+        )
 
 if __name__ == '__main__':
     unittest.main()
