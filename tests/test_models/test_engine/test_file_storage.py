@@ -37,7 +37,7 @@ class TestFileStorage(unittest.TestCase):
         self.assertIn(f"{self.model.__class__.__name__}.{self.model.id}",
                        file_content)
         
-    def test_reload_method(self):
+    def test_reload(self):
         initial_keys = list(self.storage.all().keys())
         self.storage.reload()
         reloaded_keys = list(self.storage.all().keys())
