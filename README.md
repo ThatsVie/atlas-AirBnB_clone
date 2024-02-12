@@ -60,28 +60,14 @@ Once the console is running, you can use it interactively or in non-interactive 
 Creating Instances:
 ![image](https://github.com/ThatsVie/atlas-AirBnB_clone/assets/143755961/de078d2f-a043-4b0a-ab0d-b9fc6f77402f)
 
-Listing all Instances
+Listing all instances
 ![image](https://github.com/ThatsVie/atlas-AirBnB_clone/assets/143755961/48e4a7d2-1345-48a2-8700-f6d7a643de53)
 
-Counting Instances
-![image](https://github.com/ThatsVie/atlas-AirBnB_clone/assets/143755961/8bef4b0f-4c33-439d-b781-017b14447a38)
+
 
 
 **Non-Interactive Mode**
 
 ![image](https://github.com/ThatsVie/atlas-AirBnB_clone/assets/143755961/68003a63-62f9-4b24-99b4-ae8dd43e9ff6)
 
-## Unit Tests
 
-The HBnB Console project includes a suite of unit tests to ensure the functionality of its components. These tests cover various aspects of the command interpreter, models, and storage mechanisms.
-
-Running Unit Tests
-To run the unit tests, follow these steps:
-
-Navigate to the tests directory in the project.
-
-Execute the test suite using the following command:
-
-![image](https://github.com/ThatsVie/atlas-AirBnB_clone/assets/143755961/c8b3444d-f0bf-445d-b935-871eb95e378c)
-
-This command will automatically discover and run all the unit tests within the tests directory.
