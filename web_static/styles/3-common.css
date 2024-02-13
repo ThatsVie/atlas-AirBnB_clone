@@ -1,8 +1,9 @@
+/* Styling for the body */
 body 
 {
-    margin: 0;
-    padding: 0;
-    font-color: #484848;
-    font-size: 14px;
-    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0; /* Setting margin to 0 */
+    padding: 0; /* Setting padding to 0 */
+    font-color: #484848; /* Setting font color to #484848 */
+    font-size: 14px; /* Setting font size to 14 pixels */
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif; /* Setting font family */
 }
