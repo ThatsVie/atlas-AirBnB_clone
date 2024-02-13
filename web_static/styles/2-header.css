@@ -1,6 +1,7 @@
+/* Styling for the header */
 header 
 {
-    background-color: #FF0000;
-    height: 70px;
-    width: 100%;
+    background-color: #FF0000; /* Setting the background color to red */
+    height: 70px; /* Setting the height of the header to 70 pixels */
+    width: 100%; /* Setting the width of the header to 100% of the viewport */
 }
