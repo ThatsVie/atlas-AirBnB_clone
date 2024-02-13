@@ -1,111 +1,103 @@
-.places 
-{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 100%;
+/* Styles for the .places class */
+.places {
+    display: flex; /* Use flexbox layout */
+    flex-flow: row wrap; /* Items flow in rows and wrap when necessary */
+    justify-content: center; /* Center items horizontally */
+    width: 100%; /* Take up the full width of the container */
 }
 
-.places article
-{
-    width: 390px;
-    padding: 20px;
-    margin: 20px;
-    border: #FF5A5F 1px solid;
-    border-radius: 4px;
-    text-align: center;
-    grid-row-start: 2;
-    display: flex;
-    order: 2;
-    flex-flow: row wrap;
-    align-content: space-between;
+/* Styles for articles within .places */
+.places article {
+    width: 390px; /* Set a fixed width for each article */
+    padding: 20px; /* Add padding around each article */
+    margin: 20px; /* Add margin around each article */
+    border: #FF5A5F 1px solid; /* Add border with a specific color */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    text-align: center; /* Center the text within the article */
+    grid-row-start: 2; /* Start at the second row if using CSS grid */
+    display: flex; /* Use flexbox layout */
+    order: 2; /* Set the order of the articles */
+    flex-flow: row wrap; /* Items flow in rows and wrap when necessary */
+    align-content: space-between; /* Align items with space between them */
 }
 
-.places h1
-{
-    text-align: left;
-    margin-bottom: 0;
-    font-size: 30px;
-    flex-basis: 100%;
+/* Styles for the h1 tag within .places */
+.places h1 {
+    text-align: left; /* Align text to the left */
+    margin-bottom: 0; /* Remove bottom margin */
+    font-size: 30px; /* Set the font size */
+    flex-basis: 100%; /* Set the flex basis to take up the full width */
 }
 
-.places h2
-{
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    width: 75%;
+/* Styles for the h2 tag within .places */
+.places h2 {
+    font-size: 30px; /* Set the font size */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center the text */
+    width: 75%; /* Set the width to 75% */
 }
 
-.places .price_by_night
-{
-    font-size: 30px;
-    color: #FF5A5F;
-    border: #FF5A5F 4px solid;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    display:flex;
-    justify-content: center;
-    flex-direction: column; 
-    text-align: center;
+/* Styles for the .price_by_night class within .places */
+.places .price_by_night {
+    font-size: 30px; /* Set the font size */
+    color: #FF5A5F; /* Set the text color */
+    border: #FF5A5F 4px solid; /* Add border with a specific color */
+    border-radius: 50%; /* Make the border circular */
+    width: 60px; /* Set the width */
+    height: 60px; /* Set the height */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center horizontally */
+    flex-direction: column; /* Arrange items vertically */
+    text-align: center; /* Center the text */
 }
 
-article .information 
-{
-    display: flex;
-    flex-direction: row;
-    border-top: #DDDDDD 1px solid;
-    border-bottom: #DDDDDD 1px solid;
-    padding: 30px;
-    margin-top:15px;
-    margin-bottom:15px;
-    width: 100%;
+/* Styles for the .information class within articles */
+article .information {
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Arrange items horizontally */
+    border-top: #DDDDDD 1px solid; /* Add top border with a specific color */
+    border-bottom: #DDDDDD 1px solid; /* Add bottom border with a specific color */
+    padding: 30px; /* Add padding */
+    margin-top: 15px; /* Add top margin */
+    margin-bottom: 15px; /* Add bottom margin */
+    width: 100%; /* Take up the full width */
 }
 
-.information p
-{
-    text-align: center;
+/* Styles for paragraphs within .information */
+.information p {
+    text-align: center; /* Center the text */
 }
 
-.max_guest
-{
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-.number_rooms
-{
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-.number_bathrooms
-{
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+/* Styles for the .max_guest class */
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+    width: 100px; /* Set a fixed width */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    margin-bottom: 20px; /* Add bottom margin */
 }
 
-.guest_icon
-{
-    background-image:url("../images/icon_group.png");
-    min-height:100%;
-    background-repeat: no-repeat;
+/* Styles for the guest icon */
+.guest_icon,
+.room_icon,
+.bath_icon {
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    min-height: 100%; /* Set minimum height to 100% */
 }
-.room_icon
-{
-    background-image:url("../images/icon_bed.png");
-    min-height:100%;
-    background-repeat: no-repeat;
+
+/* Styles for the guest icon */
+.guest_icon {
+    background-image: url("../images/icon_group.png"); /* Set background image */
 }
-.bath_icon
-{
-    background-image:url("../images/icon_bath.png");
-    min-height:100%;
-    background-repeat: no-repeat;
+
+/* Styles for the room icon */
+.room_icon {
+    background-image: url("../images/icon_bed.png"); /* Set background image */
+}
+
+/* Styles for the bath icon */
+.bath_icon {
+    background-image: url("../images/icon_bath.png"); /* Set background image */
 }
