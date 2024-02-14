@@ -114,5 +114,5 @@ article .information {
     background-image:url("./images/icon_bath.png"); /* Adding background image */
     min-height:100%; /* Setting minimum height */
     background-repeat: no-repeat; /* Preventing background image from repeating */
-    background-postion: center;
+    background-position: center;
 }
