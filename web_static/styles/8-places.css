@@ -98,6 +98,7 @@ article .information {
     background-image:url("./images/icon_group.png"); /* Adding background image */
     min-height:100%; /* Setting minimum height */
     background-repeat: no-repeat; /* Preventing background image from repeating */
+    background-position: center;
 }
 
 /* Styles for the room_icon class */
@@ -105,6 +106,7 @@ article .information {
     background-image:url("./images/icon_bed.png"); /* Adding background image */
     min-height:100%; /* Setting minimum height */
     background-repeat: no-repeat; /* Preventing background image from repeating */
+    background-position: center;
 }
 
 /* Styles for the bath_icon class */
@@ -112,4 +114,5 @@ article .information {
     background-image:url("./images/icon_bath.png"); /* Adding background image */
     min-height:100%; /* Setting minimum height */
     background-repeat: no-repeat; /* Preventing background image from repeating */
+    background-postion: center;
 }
