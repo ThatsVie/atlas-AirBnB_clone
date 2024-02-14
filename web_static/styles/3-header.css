@@ -7,7 +7,7 @@ header {
 
 /* Styling for the logo */
 .logo {
-    background-image: url("../images/logo.png"); /* Set the logo image */
+    background-image: url("./images/logo.png"); /* Set the logo image */
     background-position: 20px; /* Position the logo image */
     vertical-align: middle; /* Align the logo vertically */
     height: 100%; /* Set the height of the logo */
