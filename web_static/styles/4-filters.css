@@ -1,0 +1,25 @@
+/* Styling for the filters section */
+.filters {
+    background-color: white; /* Background color */
+    height: 70px; /* Height */
+    width: 100%; /* Full width */
+    border: 1px solid #DDDDDD; /* Border- light grey*/
+    border-radius: 4px; /* Border radius */
+}
+
+/* Styling for the buttons within the filters section */
+.filters button {
+    font-size: 18px; /* Font size */
+    background-color: #FF5A5F; /* Background color- shade of pink*/
+    color: #FFFFFF; /* Text color white */
+    height: 48px; /* Height */
+    width: 20%; /* Width */
+    border: none; /* No border */
+    border-radius: 4px; /* Border radius */
+    margin-right: 30px; /* Margin on the right side */
+}
+
+/* Hover effect for the buttons within the filters section */
+.filters button:hover {
+    opacity: 90%; /* Reduce opacity on hover */
+}

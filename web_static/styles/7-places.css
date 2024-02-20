@@ -1,0 +1,26 @@
+/* Styling for the places section */
+.places {
+    margin-top: 30px; /* Top margin for spacing */
+}
+
+/* Styling for heading level 1 inside places */
+.places h1 {
+    font-size: 30px; /* Font size */
+    margin: 0; /* Remove margin */
+}
+
+/* Styling for articles inside places */
+.places article {
+    width: 390px; /* Width of the article */
+    padding: 20px; /* Padding inside the article */
+    margin: 20px; /* Margin around the article */
+    border: 1px solid #FF5A5F; /* Border with  pinkish red color */
+    border-radius: 4px; /* Rounded corners */
+    text-align: center; /* Center align text */
+}
+
+/* Styling for heading level 2 inside places */
+.places h2 {
+    font-size: 30px; /* Font size */
+    text-align: center; /* Center align text */
+}

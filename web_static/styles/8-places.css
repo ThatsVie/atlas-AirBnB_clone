@@ -1,0 +1,118 @@
+/* Styles for the places section */
+.places {
+    display: flex; /* Displaying items as a flex container */
+    flex-flow: row wrap; /* Flex container items will wrap to the next row */
+    justify-content: center; /* Centering flex items horizontally */
+    width: 100%; /* Setting the width of the section to 100% */
+}
+
+/* Styles for each article within the places section */
+.places article {
+    width: 390px; /* Setting a fixed width for each article */
+    padding: 20px; /* Adding padding to the articles */
+    margin: 20px; /* Adding margin around the articles */
+    border: #FF5A5F 1px solid; /* Adding a border around the articles with a pinkish red color */
+    border-radius: 4px; /* Adding border radius to round the corners of the articles */
+    text-align: center; /* Centering text within the articles */
+    grid-row-start: 2; /* Setting the start row for grid layout */
+    display: flex; /* Displaying articles as a flex container */
+    order: 2; /* Setting the order of articles in flex layout */
+    flex-flow: row wrap; /* Flex container items will wrap to the next row */
+    align-content: space-between; /* Distributing space evenly between flex lines */
+}
+
+/* Styles for the h1 elements within the places section */
+.places h1 {
+    text-align: left; /* Aligning text to the left */
+    margin-bottom: 0; /* Removing bottom margin */
+    font-size: 30px; /* Setting font size */
+    flex-basis: 100%; /* Setting the basis for flex items to occupy full width */
+}
+
+/* Styles for the h2 elements within the places section */
+.places h2 {
+    font-size: 30px; /* Setting font size */
+    margin: 0; /* Removing margins */
+    padding: 0; /* Removing padding */
+    text-align: center; /* Centering text */
+    width: 75%; /* Setting width to 75% */
+}
+
+/* Styles for the price_by_night class within the places section */
+.places .price_by_night {
+    font-size: 30px; /* Setting font size */
+    color: #FF5A5F; /* Setting text color to pinkish red */
+    border: #FF5A5F 4px solid; /* Adding a pinkish red border around the price with a color */
+    border-radius: 50%; /* Adding border radius to create a circular shape */
+    width: 60px; /* Setting width */
+    height: 60px; /* Setting height */
+    display:flex; /* Displaying as a flex container */
+    justify-content: center; /* Centering content horizontally */
+    flex-direction: column;  /* Setting flex direction to column */
+    text-align: center; /* Centering text */
+}
+
+/* Styles for the information class within article elements */
+article .information {
+    display: flex; /* Displaying as a flex container */
+    flex-direction: row; /* Setting flex direction to row */
+    border-top: #DDDDDD 1px solid; /* Adding a top border with a light gray color */
+    border-bottom: #DDDDDD 1px solid; /* Adding a bottom border with a light gray color */
+    padding: 30px; /* Adding padding */
+    margin-top:15px; /* Adding top margin */
+    margin-bottom:15px; /* Adding bottom margin */
+    width: 100%; /* Setting width to 100% */
+}
+
+/* Styles for the p elements within the information class */
+.information p {
+    text-align: center; /* Centering text */
+}
+
+/* Styles for the max_guest class */
+.max_guest {
+    width: 100px; /* Setting width */
+    display: flex; /* Displaying as a flex container */
+    flex-direction: column; /* Setting flex direction to column */
+    margin-bottom: 20px; /* Adding bottom margin */
+}
+
+/* Styles for the number_rooms class */
+.number_rooms {
+    width: 100px; /* Setting width */
+    display: flex; /* Displaying as a flex container */
+    flex-direction: column; /* Setting flex direction to column */
+    margin-bottom: 20px; /* Adding bottom margin */
+}
+
+/* Styles for the number_bathrooms class */
+.number_bathrooms {
+    width: 100px; /* Setting width */
+    display: flex; /* Displaying as a flex container */
+    flex-direction: column; /* Setting flex direction to column */
+    margin-bottom: 20px; /* Adding bottom margin */
+}
+
+/* Styles for the guest_icon class */
+.guest_icon {
+    background-image:url("./images/icon_group.png"); /* Adding background image */
+    min-height:100%; /* Setting minimum height */
+    background-repeat: no-repeat; /* Preventing background image from repeating */
+    background-position: center;
+}
+
+/* Styles for the room_icon class */
+.room_icon {
+    background-image:url("./images/icon_bed.png"); /* Adding background image */
+    min-height:100%; /* Setting minimum height */
+    background-repeat: no-repeat; /* Preventing background image from repeating */
+    background-position: center;
+}
+
+/* Styles for the bath_icon class */
+.bath_icon {
+    background-image:url("./images/icon_bath.png"); /* Adding background image */
+    min-height:100%; /* Setting minimum height */
+    background-repeat: no-repeat; /* Preventing background image from repeating */
+    background-position: center;
+}

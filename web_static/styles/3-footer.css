@@ -1,0 +1,19 @@
+/* Styling for the footer */
+footer 
+{
+    background-color: white; /* Setting background color to white */
+    height: 60px; /* Setting height to 60 pixels */
+    width: 100%; /* Setting width to 100% */
+    display: flex; /* Using flexbox for layout */
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
+    bottom: 0; /* Positioning at the bottom of the viewport */
+    border-top: 1px solid #CCCCCC; /* Adding a 1px solid border on top with color silver */
+}
+
+/* Styling for paragraphs inside the footer */
+footer p 
+{
+    margin: 0; /* Removing margin */
+    text-align: center; /* Centering text */
+}

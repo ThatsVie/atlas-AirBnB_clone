@@ -1,0 +1,15 @@
+/* Styling for the header section */
+header {
+    height: 70px; /* Set the height of the header */
+    width: 100%; /* Make the header span the entire width of the viewport */
+    border-bottom: 1px solid #CCCCCC; /* Add a bottom border with a light gray color */
+}
+
+/* Styling for the logo */
+.logo {
+    background-image: url("./images/logo.png"); /* Set the logo image */
+    background-position: 20px; /* Position the logo image */
+    vertical-align: middle; /* Align the logo vertically */
+    height: 100%; /* Set the height of the logo */
+    background-repeat: no-repeat; /* Prevent the logo from repeating */
+}

@@ -1,0 +1,87 @@
+/* Styling for the filters section */
+.filters {
+    background-color: white; /* Background color */
+    height: 70px; /* Height of the filters section */
+    width: 100%; /* Full width */
+    border: 1px solid #DDDDDD; /* Border with a light gray color */
+    border-radius: 4px; /* Rounded corners */
+    display: flex; /* Flex layout */
+    align-items: center; /* Center align items vertically */
+}
+
+/* Styling for the search button */
+.filters button {
+    font-size: 18px; /* Font size */
+    background-color: #FF5A5F; /* Background color */
+    color: #FFFFFF; /* Text color */
+    height: 48px; /* Height of the button */
+    width: 20%; /* Width of the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    margin-right: 30px; /* Margin on the right */
+    margin-left: auto; /* Auto margin on the left */
+}
+
+/* Styling for the search button on hover */
+.filters button:hover {
+    opacity: 90%; /* Reduced opacity on hover */
+}
+
+/* Styling for the locations section */
+.filters .locations {
+    height: 100%; /* Full height of the locations section */
+    width: 25%; /* 25% width of the filters section */
+    border-right: 1px solid #DDDDDD; /* Right border with light gray color */
+}
+
+/* Styling for the amenities section */
+.filters .amenities {
+    height: 100%; /* Full height of the amenities section */
+    width: 25%; /* 25% width of the filters section */
+}
+
+/* Styling for the popover unordered list */
+.popover ul {
+    list-style-type: none; /* No bullet points */
+}
+
+/* Styling for list items inside amenities popover */
+.amenities .popover li {
+    padding-top: 5px; /* Top padding for list items */
+}
+
+/* Styling for the popover */
+.popover {
+    display: none; /* Initially hidden */
+    position: relative; /* Relative positioning */
+    background-color: #FFFFFF; /* Background color */
+    border: 1px solid #DDDDDD; /* Border with light gray color */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside popover */
+}
+
+/* Displaying popover on hover for locations and amenities */
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block; /* Displaying popover on hover */
+}
+
+/* Styling for heading level 2 */
+h2 {
+    font-size: 16px; /* Font size */
+}
+
+/* Styling for heading level 3 */
+h3 {
+    font-weight: 600; /* Font weight */
+    margin-left: 60px; /* Left margin */
+    margin-top: 15px; /* Top margin */
+}
+
+/* Styling for heading level 4 */
+h4 {
+    font-weight: 400; /* Font weight */
+    font-size: 14px; /* Font size */
+    margin-left: 60px; /* Left margin */
+    margin-top: -15px; /* Top margin */
+}

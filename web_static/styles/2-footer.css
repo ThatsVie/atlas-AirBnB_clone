@@ -1,0 +1,19 @@
+/* Styling for the footer */
+footer 
+{
+    background-color: #00FF00; /* Setting the background color to green */
+    height: 60px; /* Setting the height of the footer to 60 pixels */
+    width: 100%; /* Setting the width of the footer to 100% of the viewport */
+    display: flex; /* Using flexbox for layout */
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
+    position: fixed; /* Fixing the footer position */
+    bottom: 0; /* Aligning the footer to the bottom of the viewport */
+}
+
+/* Styling for paragraph elements inside the footer */
+footer p 
+{
+    margin: 0; /* Removing any default margin */
+    text-align: center; /* Centering the text horizontally */
+}
